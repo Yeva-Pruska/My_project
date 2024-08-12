@@ -180,7 +180,7 @@ body{
     height:100vh;
     color: black;
     background-image: 
-    linear-gradient(to top right,#e2b810 0%,#ec3b05 100%);
+    linear-gradient(to top right,#bb00c5 0%,#ec0505 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,3 +285,32 @@ main{
 .hidden{
     display: none;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ad0391;
+    color: rgb(255, 135, 233);
+    border-radius: 7px;
+    transition: 0.3s;
+    border: 3px solid #000;
+    box-shadow: 0 4px #000000; /* Тінь */
+    position: absolute; /* Абсолютне позиціонування кнопки */
+    top: 10px; /* Відступ від верхнього краю */
+    left: 10px; /* Відступ від лівого краю */
+    padding: 10px 20px; /* Внутрішні відступи для кнопки */
+    border: none; /* Забираємо стандартну рамку */
+    border-radius: 5px; /* Округлені краї кнопки */
+    cursor: pointer; 
+    
+    
+  }
+  
+  button:hover {
+    background-color: rgba(211, 0, 109, 0.866);
+    color: rgb(255, 255, 255) ;
+    box-shadow: none;
+    
+  }
+
+  

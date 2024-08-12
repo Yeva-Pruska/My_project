@@ -1,9 +1,9 @@
 body {
   background-size: cover;
   font-family: Arial, sans-serif;
-  color: #d501bc;
+  color: #ff00e1;
   position: relative;
-  background-color: rgb(111, 0, 54);
+  background-color: rgb(207, 10, 115);
 }
 div{
     display: flex;
@@ -15,16 +15,20 @@ div{
 h1, h2, h3 {
   
   padding: 10px;
-  border: 2px solid #000;
+  border: 2px solid #200060;
   text-align: center;
   text-shadow: 
   1px 1px 0 #000000, 
-  -1px -1px 0 #777777, 
-  1px -1px 0 #696969, 
-  -1px 1px 0 #626262, 
+  -1px -1px 0 #000000, 
+  1px -1px 0 #000000, 
+  -1px 1px 0 #000000, 
   0 -1px 0 #000; /* Тінь для обведення тексту */
-
   
+  
+}
+
+h1{
+  color: #ff00fb;
 }
 
 p {
@@ -34,9 +38,14 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center; 
-  color: hsl(302, 100%, 77%); 
+  color: hsl(302, 80%, 76%); 
   text-shadow: 2px 2px 5px rgb(154, 152, 152); /* Тінь */
- 
+  text-shadow: 1px 1px 0 #000000, 
+  -1px -1px 0 #000000, 
+  1px -1px 0 #000000, 
+  -1px 1px 0 #000000, 
+  0 -1px 0 #000; /* Тінь для обведення тексту */
+
 }
 
 
@@ -56,6 +65,14 @@ button {
   button:hover {
     background-color: rgba(211, 0, 155, 0.866);
     color: rgb(77, 0, 63) ;
+    
+  }
+
+  img{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
   }
   
  
